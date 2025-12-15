@@ -9,3 +9,19 @@ body {
     background: var(--bg);
     color: var(--text);
 }
+
+#ideabox {
+	width: 50dvi;
+	height: 50dvb;
+	display: grid;
+	grid-template-rows: 2rem 1fr;
+	background: cream;
+	> p {
+		text-align: end
+	}
+}
+
+#pwd {
+	height: 2rem;
+	border-radius: .2rem
+}
