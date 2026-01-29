@@ -34,7 +34,8 @@ if __name__ == "__main__":
     # app.run(debug=True, auto_reload=True, access_log=False)
     # else
     app.run(
-    debug=False,
-    auto_reload=True,
+    single_process=True,
+    # debug=False,
+    # auto_reload=False,
     unix="pwd.sock",
     access_log=False)
